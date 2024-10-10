@@ -1,0 +1,30 @@
+:root {
+    /* 
+    --------------------------------
+    Easy Page Landing Page  Css Variables
+  
+    PLEASE NOTE:
+  
+    For consistency, we use the same color/fonts variables as the ones specified in the styles-guide.md file.
+    
+    reference: styles-guide.md 
+    --------------------------------
+    */
+    --Grayish-Blue: hsl(233, 8%, 62%);
+    --Light-Grayish-Blue: hsl(220, 16%, 96%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%);
+    --color-dark-blue: hsl(234, 12%, 34%);
+    --color-grayish-blue: hsl(229, 6%, 66%);
+    --color-light-gray: hsl(0, 0%, 98%);
+    --font-family:  "Public Sans", sans-serif;
+  }
+  
+  /* -----Global Styles----- */
+  body {
+    font-family:  "Public Sans", sans-serif;
+    background-color: var(--color-light-gray);
+    color: var(--color-dark-blue);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
