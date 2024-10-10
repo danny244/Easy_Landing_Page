@@ -91,8 +91,8 @@ commiting your changes: git commit -am 'creating a card component'
 
 ## Got feedback for me?
 
-I love receiving feedback! We're always looking to improve our challenges and Documentation. So if you have anything you'd like to mention,or you think i should add?, please email [wisbel71@gmail.com].
+I love receiving feedback! i'm always looking to improve challenges and Any Documentation i write. So if you have anything you'd like to mention,or you think i should add?, please email [wisbel71@gmail.com].
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+
 
 **Have fun building!** 🚀
