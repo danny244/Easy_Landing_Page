@@ -27,4 +27,78 @@
     color: var(--color-dark-blue);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
   }
+
+    /* Benefits section starts here */
+.benefit {
+  background-color: var(--Light-Grayish-Blue);
+  padding: 3rem 0;
+  line-height: 1.6rem;
+}
+
+.benefit-container {
+  width: 85%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.benefit-title {
+  width: 60%;
+}
+
+.benefit-title p {
+  margin: 1rem 0;
+}
+
+.card-description, .benefit-title p {
+  font-weight: 300;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.card img {
+  width: clamp(2.5rem, 4.5rem, 5.5rem);
+}
+
+.card .card-title {
+  font-weight: 600;
+  margin: 1em 0;
+  width: max-content;
+}
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+
+  body {
+    line-height: 1.5rem;
+  }
+
+  .benefit-container {
+    text-align: center;
+  }
+
+  .benefit-title {
+    width: 100%;
+  }
+
+  .benefit-title h2 {
+    line-height: 2rem;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card .card-title {
+    width: unset;
+  }
+}
